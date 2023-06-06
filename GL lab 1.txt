@@ -1,0 +1,55 @@
+class employeedetails
+{
+    String firstname,secondname,Dept;
+    char pwd; 
+    public employee(String firstname, String secondname,String dept,String email,String company,char pwd )
+    { 
+        this.firstname=firstname;
+        this.second name=secondname;
+        this.dept=dept;
+        this.email=email;
+        this.company= company;
+        this.pwd=pwd;
+        
+    }
+    public String getfirstname()
+    {
+     return firstname;
+    }
+    public String getsecondname()
+    {
+        return secondname;
+    }
+    public String getdept()
+{
+     return dept;
+}
+  public String getemail(){
+      return email;
+  }
+  public String getcompany(){
+      return company;
+  }
+public char getpwd(){
+return pwd;
+}
+ public String  toString(){
+     return employee details(firstname="+empfirstname+"\n Secondname="+empsecondname+"\n dept="+empdept+"\n email="+empemail+"\n company="+empcompany+"\n pwd=+"emppwd+"+);
+ }
+ 
+     }
+     public class employee
+     {
+         public static void main (String args[])
+         {
+             
+             employeedetails.emp= new employee details();
+             emp.setfirstname ("jayanth");
+             emp.setdept(Technical);
+             emp.setcompany(infosys);
+             emp.setemail(jayanthkonnepati@Technicalinfosys.com);
+             emp.setpwd(7Ja@)
+             System.out.println(emp);
+         }
+     }
+         
